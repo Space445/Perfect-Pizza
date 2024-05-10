@@ -1,0 +1,110 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.pizza {
+    border: 1px black;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    width: auto;
+}
+
+.medium-pizza {
+    background-color: #f5b507;
+    height: em;
+    flex: 1;
+}
+
+.medium-pizza-img {
+    background-color: #f5b507;
+    height: 10em;
+    width: 10em;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.large-pizza {
+    background-color: rgb(228, 89, 9);
+    height: 30em;
+    flex: 1;
+}
+
+.large-pizza-img {
+    background-color: rgb(228, 89, 9);
+    height: 12em;
+    width: 13em;
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+    padding-bottom: 2em;
+    margin-left: .5em;
+}
+
+.small-pizza {
+    background-color: deeppink;
+    height: 30em;
+    flex: 1;
+}
+.small-pizza-img {
+    float: right;
+    padding-bottom: 5em;
+    background-color: deeppink;
+    height: 3em;
+    width: 8em;
+    padding-left: .5em;
+}
+
+.small-pizza-text {
+    padding-top: 8em;
+}
+
+.contact-us {
+    background-color: #eae319;
+    display: flex;
+}
+
+.socials, address {
+    flex:1;
+}
+
+.socials {
+    margin-left: 1em;
+    margin-bottom: 2.5em;
+}
+
+.address {
+    margin-right: 30em;
+}
+
+@media (min-width: 960px){
+    .pizzas {
+        display: flex;
+    }
+
+    .body {
+        background-color: cornflowerblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media (min-width: 768px){
+    .pizzas {
+        display: flex;
+    }
+
+    .body {
+        background-color: cornflowerblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
