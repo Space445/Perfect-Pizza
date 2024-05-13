@@ -29,9 +29,9 @@ body {
 
 .medium-pizza-img {
     background-color: #f5b507;
-    height: 10em;
-    width: 10em;
-    padding-left: 2em;
+    height: 15em;
+    width: 15em;
+    padding-left: 1em;
     padding-top: 1em;
 }
 
@@ -43,12 +43,12 @@ body {
 
 .large-pizza-img {
     background-color: rgb(228, 89, 9);
-    height: 12em;
-    width: 13em;
-    padding-left: 2.7em;
-    padding-right: 2.7em;
-    padding-bottom: 2em;
-    margin-left: .5em;
+    height: 15em;
+    width: 15em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    margin-left: .1em;
 }
 
 .small-pizza {
@@ -60,9 +60,9 @@ body {
     float: right;
     padding-bottom: 5em;
     background-color: deeppink;
-    height: 3em;
-    width: 8em;
-    padding-left: .5em;
+    height: 15em;
+    width: 15em;
+    padding-left: .1em;
 }
 
 .small-pizza-text {
